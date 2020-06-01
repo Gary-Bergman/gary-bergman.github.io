@@ -2,6 +2,14 @@
     font-weight: bold;
 }
 
-.footericons {
+.footerIcons {
     font-size: 40px;
+}
+
+.myName {
+ color: #ffffff;
+ background-color: #446E9B;
+ font-size: 20px;
+ font-family: "Open Sans";
+ height: 100%;
 }
