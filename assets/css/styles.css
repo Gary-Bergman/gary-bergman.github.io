@@ -1,5 +1,7 @@
 body {
     padding-bottom: 30%;
+    background-image: url(https://championsmac.com/wp-content/uploads/2016/07/off-white-textured-background-1920x10803.jpg);
+    background-size: cover;
 }
 .nav-link:hover {
     font-weight: bold;
