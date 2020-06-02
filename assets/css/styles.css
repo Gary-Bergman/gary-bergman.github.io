@@ -11,10 +11,19 @@
  background-color: #446E9B;
  font-size: 20px;
  font-family: "Open Sans";
- height: 100%;
+ min-height: 100%;
+
 }
 
 .a{
     margin-bottom: 5px;
+}
+
+.col {
+    margin: 10px;
+}
+
+.portBox {
+  
 }
 
