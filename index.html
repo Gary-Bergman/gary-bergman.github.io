@@ -17,12 +17,12 @@
 
 <!-- I chose purposefully to center the content instead of making it left-aligned because I think it is more aestheticslly pleasing. I could have left-aligned to follow the mock images, but my TA said that my choice was okay. -->
 
+<!-- navbar brand -->
+
 <body class="h-100">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="myName">
-                <p>Gary Bergman</p>
-            </div>
+            <a class="navbar-brand ml-5 bg-dark ">Gary Bergman</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -41,30 +41,32 @@
                 </ul>
             </div>
         </nav>
-
     </header>
 
     <main>
-        <div class="container mt-5 mb-5 about">
-            <div class=" container card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">About Me</h5>
-                    <hr class="my-4">
-                    <figure>
-                        <img id="bio-image" style="width: 200px" src="assets/images/headshot.jpg" alt="Headshot" />
-                    </figure>
-                    <p class="card-text">I'm a Philadelphia-based web-developer in training. I run a small event
-                        marketing
-                        company, Local Amp LLC, but
-                        decided to take up coding to increase my marketable skill sets. Outside of work I love to play
-                        Ulimate,
-                        video
-                        games, board games
-                        and guitar!</p>
-                </div>
+        <!-- mr-2 ml-4 mt-5 mb-5 p-3  -->
+        <section class="container-sm  m-5 p-3 card">
+            <div class="card-body">
+                <h5 class="card-title">About Me</h5>
+                <hr class="my-4">
+                <p class="card-text"> <img id="bio-image" class="float-left mr-5" style="width: 200px"
+                        src="assets/images/headshot.jpg" alt="Headshot" />I'm a Philadelphia-based web-developer
+                    in training. I run a small event
+                    marketing
+                    company, Local Amp LLC, but
+                    decided to take up coding to increase my marketable skill sets. Outside of work I love to play
+                    Ulimate,
+                    video
+                    games, board games
+                    and guitar! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae recusandae
+                    sapiente unde minima, repellendus totam blanditiis eius doloribus debitis maiores veritatis quis
+                    quidem, mollitia, sed aspernatur nisi odit ab? Ea. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Sit a voluptates reprehenderit molestiae unde deleniti labore libero non
+                    distinctio voluptatum? Pariatur alias placeat provident et optio dicta velit. Dolorem,
+                    aliquid!</p>
             </div>
-        </div>
-
+        </section>
+        <!-- put image in p tag and use float left -->
 
     </main>
 

@@ -1,5 +1,5 @@
 body {
-    padding-bottom: 150px;
+    padding-bottom: 30%;
 }
 .nav-link:hover {
     font-weight: bold;
@@ -28,11 +28,11 @@ body {
     padding: 0;
 }
 
-.portBox {
-  
+
+.container-md {
+    /* max-width: 50%; */
 }
 
-.about {
-    padding-bottom: 500px;
-}
+.container-sm {
 
+}
