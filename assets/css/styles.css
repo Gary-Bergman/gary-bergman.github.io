@@ -1,4 +1,6 @@
-
+body {
+    padding-bottom: 150px;
+}
 .nav-link:hover {
     font-weight: bold;
 }
@@ -23,9 +25,14 @@
 
 .col {
     margin: 10px;
+    padding: 0;
 }
 
 .portBox {
   
+}
+
+.about {
+    padding-bottom: 500px;
 }
 
