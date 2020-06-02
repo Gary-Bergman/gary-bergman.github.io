@@ -1,5 +1,5 @@
 body {
-    padding-bottom: 30%;
+    padding-bottom: 800px;
     background-image: url(https://championsmac.com/wp-content/uploads/2016/07/off-white-textured-background-1920x10803.jpg);
     background-size: cover;
 }
@@ -12,6 +12,14 @@ body {
     
 }
 
+.container-sm, .container-xs {
+    border: 7px solid #446E9B;
+  
+}
+
+.card-text  {
+    line-height: 2em;
+}
 
 .myName {
  color: #ffffff;
