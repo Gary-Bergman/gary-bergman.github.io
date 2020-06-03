@@ -21,13 +21,8 @@ body {
     line-height: 2em;
 }
 
-.myName {
- color: #ffffff;
- background-color: #446E9B;
- font-size: 20px;
- font-family: "Open Sans";
- min-height: 100%;
-
+.name {
+    min-height: 100%;
 }
 
 .a{
@@ -47,3 +42,60 @@ body {
 .container-sm {
 
 }
+
+/* @media screen and (max-width: 539px) {
+    .container-var {
+        @extend .container-xs 
+    }
+} */
+.container-var {
+    @media screen and (min-width: 540px) {
+
+            @extend .container-sm
+        }
+    }
+}
+
+@media (min-width: 540px) {
+    @extend .container-var {
+        .container-sm
+    }
+}
+
+@media (max-width: 539px) {
+    @extend container-sm
+}
+
+/* 
+@media screen and (min-width: 540px) {
+    .container-var {
+        @extend .container-sm
+    }
+} */
+
+.container-xs {
+    border: 1px #f00;
+    background-color: #fdd;
+
+  
+    &--con {
+      @extend .container-sm;
+      
+    }
+  }
+
+/* @media screen and (min-width: 540) {
+    @extend .container-sm
+}
+
+/* .container-var { 
+ 
+    @media screen and (min-width: 540px) {
+        @extend .container-sm
+    }
+        
+}
+
+.container-var { 
+        @extend .container-xs
+} */ */

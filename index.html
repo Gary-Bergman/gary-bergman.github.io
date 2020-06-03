@@ -19,10 +19,12 @@
 
 <!-- navbar brand -->
 
+<!-- will have to use media queries for container-xs unless Dave has a better answer. Need to mention in my comments that I used it so I can format it the way I like in the MotoG4 view on dev tool inspector.  -->
+
 <body class="h-100">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand ml-5 bg-primary text-white ">Gary Bergman</a>
+            <a class="navbar-brand ml-5 bg-primary text-white name">Gary Bergman</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -43,13 +45,14 @@
         </nav>
     </header>
 
-    <main>
+    <main class="container">
         <!-- mr-2 ml-4 mt-5 mb-5 p-3  -->
-        <section class="container-sm m-5 p-3 pr-5 card">
-            <div class="card-body">
+        <!-- m-auto? -->
+        <section class="m-md-5 p-md-3 pr-md-5 card">
+            <div class="row card-body">
                 <legend class="card-title text-primary">About Me</legend>
                 <hr class="my-4">
-                <p class="card-text"> <img id="bio-image" class="float-left mr-5" style="width: 200px"
+                <p class="card-text"> <img id="bio-image" class="col-md-4 img-fluid float-left mr-5"
                         src="assets/images/headshot.jpg" alt="Headshot" />I'm a Philadelphia-based web-developer
                     in training. I run a small event
                     marketing
