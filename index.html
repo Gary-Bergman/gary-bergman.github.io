@@ -24,7 +24,7 @@
 <body class="h-100">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand ml-5 bg-primary text-white name">Gary Bergman</a>
+            <a class="navbar-brand ml-5 bg-primary text-white">Gary Bergman</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,15 +44,17 @@
             </div>
         </nav>
     </header>
-
+    <!-- put container in main to fix my breakpoint problem -->
     <main class="container">
-        <!-- mr-2 ml-4 mt-5 mb-5 p-3  -->
-        <!-- m-auto? -->
-        <section class="m-md-5 p-md-3 pr-md-5 card">
+
+        <!-- mb-xs-5 pb-xs-5  and mt and pt-->
+
+        <section class="m-sm-5 p-sm-3 card board ">
             <div class="row card-body">
                 <legend class="card-title text-primary">About Me</legend>
                 <hr class="my-4">
-                <p class="card-text"> <img id="bio-image" class="col-md-4 img-fluid float-left mr-5"
+                <!-- Put my img in a col with different breakpoint sizing to make it responsive. -->
+                <p class="card-text"> <img id="bio-image" class="col-sm-8 col-md-6 col-lg-4 img-fluid float-left mr-5"
                         src="assets/images/headshot.jpg" alt="Headshot" />I'm a Philadelphia-based web-developer
                     in training. I run a small event
                     marketing
