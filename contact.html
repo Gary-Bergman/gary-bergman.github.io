@@ -14,6 +14,7 @@
 </head>
 
 <body class="h-100">
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand ml-5 text-primary myName">Gary Bergman</a>
@@ -21,7 +22,7 @@
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarText">
+            <section class="collapse navbar-collapse" id="navbarText">
                 <ul class="nav col d-flex justify-content-end">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
@@ -33,31 +34,29 @@
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
-            </div>
+            </section>
         </nav>
     </header>
 
-    <!-- container-sm  mr-2 ml-4 mt-5 -->
-    <!-- container container-sm container-md border m-5 p-3 mb-3"> -->
     <main class="container p-3">
-<!--  <section class="container-sm m-5 p-3 card"> -->
-        <section class="m-sm-5 p-3 board card">       
+
+        <section class="m-sm-5 p-3 board card">
             <form>
                 <legend class="text-primary">Contact</legend>
                 <hr class="my-4">
-                <div class="form-group">
+                <section class="form-group">
                     <label for="exampleFormControlInput1">Name</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
-                </div>
-                <div class="form-group">
+                </section>
+                <section class="form-group">
                     <label for="exampleFormControlInput1">Email address</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1"
                         placeholder="example@gmail.com">
-                </div>
-                <div class="form-group">
+                </section>
+                <section class="form-group">
                     <label for="exampleFormControlTextarea1">Message</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                </div>
+                </section>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </section>
@@ -67,15 +66,14 @@
     <footer>
         <nav class="fixed-bottom mt-5 navbar navbar-expand-lg navbar-light bg-light">
             <figure class="container footerIcons">
-                <div class="row mx-auto">
+                <section class="row mx-auto">
                     <a class="col pr-5" href="https://github.com/Gary-Bergman" target="_blank"><i class="fa fa-github"
                             aria-hidden="true"></i></a>
                     <a class="col x-5" href="mailto:garybergman00@gmail.com" target="_blank"><i class="fa fa-envelope"
                             aria-hidden="true"></i></a>
                     <a class="col pl-5" href="https://www.linkedin.com/in/gary-bergman/" target="_blank"><i
                             class="fa fa-linkedin" aria-hidden="true"></i></a>
-
-                </div>
+                </section>
             </figure>
         </nav>
     </footer>

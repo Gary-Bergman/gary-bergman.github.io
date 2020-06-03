@@ -11,17 +11,10 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="assets/css/styles.css">
-
-
 </head>
 
-<!-- I chose purposefully to center the content instead of making it left-aligned because I think it is more aestheticslly pleasing. I could have left-aligned to follow the mock images, but my TA said that my choice was okay. -->
-
-<!-- navbar brand -->
-
-<!-- will have to use media queries for container-xs unless Dave has a better answer. Need to mention in my comments that I used it so I can format it the way I like in the MotoG4 view on dev tool inspector.  -->
-
 <body class="h-100 bodyInd">
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand ml-5 text-primary myName">Gary Bergman</a>
@@ -29,7 +22,7 @@
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarText">
+            <section class="collapse navbar-collapse" id="navbarText">
                 <ul class="nav col d-flex justify-content-end">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
@@ -41,25 +34,25 @@
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
-            </div>
+            </section>
         </nav>
     </header>
     <!-- put container in main to fix my breakpoint problem -->
     <main class="container pb-3">
 
-        <!-- mb-xs-5 pb-xs-5  and mt and pt-->
+        <!-- I chose purposefully to center the content instead of making it left-aligned because I think it is more aestheticslly pleasing. I could have left-aligned to follow the mock images, but my TA said that my choice was okay. -->
 
         <section class="m-sm-5 p-3 card board aboutMe ">
-            <div class="card-body">
+            <section class="card-body">
                 <legend class="card-title text-primary">About Me</legend>
                 <hr class="my-4">
                 <!-- Put my img in a col with different breakpoint sizing to make it responsive. -->
-                <div class="row">
+                <section class="row">
                     <p class="card-text"> <img id="bio-image"
                             class="col-sm-8 col-md-6 col-lg-4 img-fluid float-left mr-5"
-                            src="assets/images/headshot.jpg" alt="Headshot" />I'm a Philadelphia-based web-developer
-                        in training. I run a small event
-                        marketing
+                            src="assets/images/headshot.jpg" alt="Headshot" />
+                        <!-- Not sure how to get the text to reformat here -->
+                        I'm a Philadelphia-based web-developer in training. I run a small eventmarketing
                         company, Local Amp LLC, but
                         decided to take up coding to increase my marketable skill sets. Outside of work I love to play
                         Ulimate,
@@ -69,33 +62,31 @@
                         creative problem solving into my next junior developer role after graduating from the Penn
                         Bootcamp!
                     </p>
+                </section>
 
-
-                </div>
-
-            </div>
+            </section>
         </section>
-        <!-- put image in p tag and use float left -->
 
     </main>
+
+    <!-- Chose figure tag in footer bc it houses 3 icons. Maybe a section or div could be more appropriate but I thought it worked.  -->
 
     <footer>
         <nav class="fixed-bottom mt-5 navbar navbar-expand-lg navbar-light bg-light">
             <figure class="container footerIcons">
-                <div class="row mx-auto">
+                <section class="row mx-auto">
                     <a class="col pr-5" href="https://github.com/Gary-Bergman" target="_blank"><i class="fa fa-github"
                             aria-hidden="true"></i></a>
                     <a class="col x-5" href="mailto:garybergman00@gmail.com" target="_blank"><i class="fa fa-envelope"
                             aria-hidden="true"></i></a>
                     <a class="col pl-5" href="https://www.linkedin.com/in/gary-bergman/" target="_blank"><i
                             class="fa fa-linkedin" aria-hidden="true"></i></a>
-
-                </div>
+                </section>
             </figure>
         </nav>
     </footer>
 
-
+    <!-- Javascript linked for dynamic functionality  -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

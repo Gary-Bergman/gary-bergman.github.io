@@ -14,6 +14,7 @@
 </head>
 
 <body class="h-100">
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand ml-5 text-primary myName">Gary Bergman</a>
@@ -21,7 +22,7 @@
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarText">
+            <section class="collapse navbar-collapse" id="navbarText">
                 <ul class="nav col d-flex justify-content-end">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
@@ -33,133 +34,71 @@
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
-            </div>
+            </section>
         </nav>
     </header>
 
-
     <main class="container p-3">
 
-
-        <!-- <section class="card container" style="height: 2000px; width: 18rem;">
-            <h5 class="card-title">Portfolio</h5>
-            <hr class="my-4"> -->
-        <!-- style="z-index: 5; height: 100px; background-color: rgba(255,0,0,0.1);" -->
-
-        <!-- will need custom css for banner overlap need a relative positon for parent and absolute for child  child shoudl be class=textbox -->
-
-        <!--    <section class="container-sm m-5 p-3 card"> -->
-
-
-
-
+        <!-- I used a lot of semantic html though maybe divs would be more appropriate for some of these section and figure tags -->
         <section class="m-sm-5 p-3 board card">
-            <div class="card-body">
+            <section class="card-body">
                 <legend class="card-title text-primary">Portfolio</legend>
                 <hr class="my-4">
 
                 <section class="row">
-                    <div class="col-sm-6 p-3 text-center">
+                    <figure class="col-md-6 p-3 text-center">
                         <a href="https://placeholder.com">
                             <img class="img-thumbnail bg-primary" src="https://via.placeholder.com/200" />
                         </a>
-                    </div>
-                    <div class="col-sm-6 p-3 text-center">
+                    </figure>
+                    <figure class="col-md-6 p-3 text-center">
                         <a href="https://placeholder.com">
                             <img class="img-thumbnail bg-primary" src="https://via.placeholder.com/200" />
                         </a>
-                    </div>
-                    <div class="col-sm-6 p-3 text-center">
+                    </figure>
+                    <figure class="col-md-6 p-3 text-center">
                         <a href="https://placeholder.com">
                             <img class="img-thumbnail bg-primary" src="https://via.placeholder.com/200" />
                         </a>
-                    </div>
-                    <div class="col-sm-6 p-3 text-center">
+                    </figure>
+                    <figure class="col-md-6 p-3 text-center">
                         <a href="https://placeholder.com">
                             <img class="img-thumbnail bg-primary" src="https://via.placeholder.com/200" />
                         </a>
-                    </div>
-                    <div class="col-sm-6 p-3 text-center">
+                    </figure>
+                    <figure class="col-md-6 p-3 text-center">
                         <a href="https://placeholder.com">
                             <img class="img-thumbnail bg-primary" src="https://via.placeholder.com/200" />
                         </a>
-                    </div>
+                    </figure>
+                    <!-- Puposefully left this div tag since there's no content. -->
                     <div class="col text-center">
                         <a>
                         </a>
                     </div>
                 </section>
-            </div>
+            </section>
         </section>
-
-<!-- 
-        <section class="m-sm-5 p-3 board card">
-            <div class="card-body">
-                <legend class="card-title text-primary">Portfolio</legend>
-                <hr class="my-4">
-
-                <section class="row">
-                    <div class="col text-center">
-                        <a href="https://placeholder.com">
-                            <img class="img-thumbnail bg-primary" src="https://via.placeholder.com/200" />
-                        </a>
-                    </div>
-                    <div class="col text-center">
-                        <a href="https://placeholder.com">
-                            <img class="img-thumbnail bg-primary" src="https://via.placeholder.com/200" />
-                        </a>
-                    </div>
-                </section>
-
-                <section class="row">
-                    <div class="col text-center">
-                        <a href="https://placeholder.com">
-                            <img class="img-thumbnail bg-primary" src="https://via.placeholder.com/200" />
-                        </a>
-                    </div>
-                    <div class="col text-center">
-                        <a href="https://placeholder.com">
-                            <img class="img-thumbnail bg-primary" src="https://via.placeholder.com/200" />
-                        </a>
-                    </div>
-                </section>
-
-                <section class="row">
-                    <div class="col text-center">
-                        <a href="https://placeholder.com">
-                            <img class="img-thumbnail bg-primary" src="https://via.placeholder.com/200" />
-                        </a>
-                    </div>
-                    <div class="col text-center">
-                        <a>
-                        </a>
-                    </div>
-                </section>
-            </div>
-        </section> -->
-
 
     </main>
 
     <footer>
         <nav class="fixed-bottom mt-5 navbar navbar-expand-lg navbar-light bg-light">
             <figure class="container footerIcons">
-                <div class="row mx-auto">
+                <section class="row mx-auto">
                     <a class="col pr-5" href="https://github.com/Gary-Bergman" target="_blank"><i class="fa fa-github"
                             aria-hidden="true"></i></a>
                     <a class="col x-5" href="mailto:garybergman00@gmail.com" target="_blank"><i class="fa fa-envelope"
                             aria-hidden="true"></i></a>
                     <a class="col pl-5" href="https://www.linkedin.com/in/gary-bergman/" target="_blank"><i
                             class="fa fa-linkedin" aria-hidden="true"></i></a>
-
-                </div>
+                </section>
             </figure>
         </nav>
     </footer>
 
-
-
-
+    <!-- Javascript linked for dynamic functionality  -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

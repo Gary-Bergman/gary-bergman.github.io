@@ -16,20 +16,20 @@ body {
     font-weight: bold;
 }
 
-.footerIcons {
-    font-size: 40px;
-    
+#bio-image {
+    border: 2px solid #ababab;
+    padding: 0;
 }
+
+
 
 .board {
     border: 7px solid #446E9B;
-  
 }
 
 .card-text  {
     line-height: 2em;
 }
-
 
 .a{
     margin-bottom: 5px;
@@ -40,8 +40,11 @@ body {
     padding: 0;
 }
 
+.footerIcons {
+    font-size: 40px;
+}
 
-
+/* Had to adjust padding seperately for the index page */
 @media only screen and (max-width: 580px) {
     .aboutMe {
         margin-bottom: 300px;
