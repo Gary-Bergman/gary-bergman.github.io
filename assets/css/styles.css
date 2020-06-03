@@ -6,7 +6,7 @@ body {
 
 /* Had to adjust padding seperately for the index page */
 .bodyInd {
-    padding-bottom: 1000px;
+    padding-bottom: 1200px;
 }
 .nav-link:hover {
     font-weight: bold;
