@@ -21,10 +21,10 @@
 
 <!-- will have to use media queries for container-xs unless Dave has a better answer. Need to mention in my comments that I used it so I can format it the way I like in the MotoG4 view on dev tool inspector.  -->
 
-<body class="h-100">
+<body class="h-100 bodyInd">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand ml-5 bg-primary text-white">Gary Bergman</a>
+            <a class="navbar-brand ml-5 text-primary myName">Gary Bergman</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -45,49 +45,55 @@
         </nav>
     </header>
     <!-- put container in main to fix my breakpoint problem -->
-    <main class="container">
+    <main class="container pb-3">
 
         <!-- mb-xs-5 pb-xs-5  and mt and pt-->
 
-        <section class="m-sm-5 p-sm-3 card board ">
-            <div class="row card-body">
+        <section class="m-sm-5 p-3 card board aboutMe ">
+            <div class="card-body">
                 <legend class="card-title text-primary">About Me</legend>
                 <hr class="my-4">
                 <!-- Put my img in a col with different breakpoint sizing to make it responsive. -->
-                <p class="card-text"> <img id="bio-image" class="col-sm-8 col-md-6 col-lg-4 img-fluid float-left mr-5"
-                        src="assets/images/headshot.jpg" alt="Headshot" />I'm a Philadelphia-based web-developer
-                    in training. I run a small event
-                    marketing
-                    company, Local Amp LLC, but
-                    decided to take up coding to increase my marketable skill sets. Outside of work I love to play
-                    Ulimate,
-                    video
-                    games, board games
-                    and guitar! I have only been coding for a few months now but I love it! I'd like to incorperate
-                    creative problem solving into my next junior developer role after graduating from the Penn Bootcamp!
-                </p>
+                <div class="row">
+                    <p class="card-text"> <img id="bio-image"
+                            class="col-sm-8 col-md-6 col-lg-4 img-fluid float-left mr-5"
+                            src="assets/images/headshot.jpg" alt="Headshot" />I'm a Philadelphia-based web-developer
+                        in training. I run a small event
+                        marketing
+                        company, Local Amp LLC, but
+                        decided to take up coding to increase my marketable skill sets. Outside of work I love to play
+                        Ulimate,
+                        video
+                        games, board games
+                        and guitar! I have only been coding for a few months now but I love it! I'd like to incorperate
+                        creative problem solving into my next junior developer role after graduating from the Penn
+                        Bootcamp!
+                    </p>
+
+
+                </div>
+
             </div>
         </section>
         <!-- put image in p tag and use float left -->
 
     </main>
 
-
     <footer>
         <nav class="fixed-bottom mt-5 navbar navbar-expand-lg navbar-light bg-light">
             <figure class="container footerIcons">
                 <div class="row mx-auto">
-                    <a class="col" href="https://github.com/Gary-Bergman" target="_blank"><i class="fa fa-github"
+                    <a class="col pr-5" href="https://github.com/Gary-Bergman" target="_blank"><i class="fa fa-github"
                             aria-hidden="true"></i></a>
-                    <a class="col" href="mailto:garybergman00@gmail.com" target="_blank"><i class="fa fa-envelope"
+                    <a class="col x-5" href="mailto:garybergman00@gmail.com" target="_blank"><i class="fa fa-envelope"
                             aria-hidden="true"></i></a>
-                    <a class="col" href="https://www.linkedin.com/in/gary-bergman/" target="_blank"><i
+                    <a class="col pl-5" href="https://www.linkedin.com/in/gary-bergman/" target="_blank"><i
                             class="fa fa-linkedin" aria-hidden="true"></i></a>
+
                 </div>
             </figure>
         </nav>
     </footer>
-
 
 
 

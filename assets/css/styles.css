@@ -1,9 +1,18 @@
 body {
-    padding-bottom: 800px;
+    padding-bottom: 200px;
     background-image: url(https://championsmac.com/wp-content/uploads/2016/07/off-white-textured-background-1920x10803.jpg);
     background-size: cover;
 }
+
+/* Had to adjust padding seperately for the index page */
+.bodyInd {
+    padding-bottom: 1000px;
+}
 .nav-link:hover {
+    font-weight: bold;
+}
+
+.myName:hover {
     font-weight: bold;
 }
 
@@ -30,4 +39,14 @@ body {
     margin: 10px;
     padding: 0;
 }
+
+
+
+@media only screen and (max-width: 580px) {
+    .aboutMe {
+        margin-bottom: 300px;
+        margin-top: 50px;
+      }
+}
+
 
