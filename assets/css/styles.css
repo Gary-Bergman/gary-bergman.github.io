@@ -22,7 +22,6 @@ body {
 }
 
 
-
 .board {
     border: 7px solid #446E9B;
 }
@@ -43,6 +42,19 @@ body {
 .footerIcons {
     font-size: 40px;
 }
+
+/* .card-img-top {
+    width: 400px;
+    height: auto;
+    padding: 2px;
+    margin: 2px;
+
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+} */
 
 /* Had to adjust padding seperately for the index page */
 @media only screen and (max-width: 580px) {
