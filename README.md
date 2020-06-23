@@ -7,6 +7,6 @@ This portfolio is a work in progress and will be updated as I continue through m
 
 I built this project using html in combination with bootstrap - with color schemes from bootswatch and icons from Font Awesome. I added an external styelsheet as well to override some bootstrap presets to enhance the style of the page. 
 
-Deployed link: https://gary-bergman.github.io/
+[Deployed link](https://gary-bergman.github.io/)
 
-My github: https://github.com/Gary-Bergman
+[My github](https://github.com/Gary-Bergman)
